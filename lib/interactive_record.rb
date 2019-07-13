@@ -1,7 +1,7 @@
 require 'active_support/inflector'
 
 
- class InteractiveRecord	class InteractiveRecord
+class InteractiveRecord
 
 
    def self.table_name
@@ -59,4 +59,4 @@ end
     sql = "SELECT * FROM #{self.table_name} WHERE #{hash.keys[0].to_s} = '#{hash.values[0].to_s}'"
     DB[:conn].execute(sql)
   end
-end 	
+end
