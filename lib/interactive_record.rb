@@ -3,7 +3,7 @@ require 'active_support/inflector'
 require 'pry'
 
 
- class InteractiveRecord	class InteractiveRecord
+ class InteractiveRecord
   attr_accessor :id
 
    def self.table_name
@@ -65,4 +65,4 @@ require 'pry'
   end
 
 
- end 	
+ end
